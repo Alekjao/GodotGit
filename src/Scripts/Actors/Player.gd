@@ -16,7 +16,6 @@ func _physics_process(delta: float) -> void:
 	var direction: = get_direction()
 	_velocity = calculate_move_velocity(_velocity,direction,speed,is_jump_interrupted)
 	_velocity = move_and_slide(_velocity, FLOOR_NORMAL)
-#	adawdasdwasdawdwadadas
 func get_direction() -> Vector2:
 	if Input.get_action_strength("move_left"):
 		$AnimationPlayer.play("Run")
