@@ -39,9 +39,10 @@ func set_direction_view() -> void:
 	if get_direction() > 0:
 		dir = Vector2(-1, 0)
 		
-	if get_direction() > 0 and (Input.is_action_pressed("move_up") or Input.is_action_pressed("move_down")) and !Input.is_action_pressed("move_left"):
+	if (get_direction() > 0 
+	and (Input.is_action_pressed("move_up") or Input.is_action_pressed("move_down")) 
+	and !Input.is_action_pressed("move_left")):
 		dir = Vector2(0, 0)
-	
 	
 	
 	if Input.is_action_pressed("move_right") :
@@ -49,6 +50,7 @@ func set_direction_view() -> void:
 	
 	if Input.is_action_pressed("move_down"):
 		dir.y += 1
+		
 	if Input.is_action_just_released("move_down"):
 		dir += Vector2(dir.x , 0)
 		
