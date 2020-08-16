@@ -12,9 +12,11 @@ var next_dir_time = 0
 func _ready():
 	set_process(true)
 
-var direction: = get_direction()
 
-
+#func _physics_process(delta: float) -> void:
+	var is_jump_interrupted: = Input.is_action_just_released("jump") and _velocity.y < 0.0 
+	var direction: = get_direction()
+#	_velocity = calculate_move_velocity(_velocity,speed,direction,is_jump_interrupted)
 	_velocity = move_and_slide(_velocity, FLOOR_NORMAL)
 func get_direction() -> Vector2:
 	if Player.position.x < position.x and next_dir != -1:
