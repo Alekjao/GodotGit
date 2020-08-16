@@ -174,8 +174,8 @@ rotation = 1.57778
 script = ExtResource( 4 )
 
 [node name="Sprite" type="Sprite" parent="Mira"]
-position = Vector2( 23.1891, 0 )
-scale = Vector2( 1.0115, 0.226603 )
+position = Vector2( 25.5015, 0 )
+scale = Vector2( 1.08376, 0.226603 )
 texture = ExtResource( 3 )
 [connection signal="area_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_area_entered"]
 [connection signal="body_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_body_entered"]

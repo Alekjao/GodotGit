@@ -160,4 +160,3 @@ position = Vector2( 1780.06, 800.406 )
 
 [node name="AudioStreamPlayer2D" parent="." instance=ExtResource( 5 )]
 pitch_scale = 1.05
-autoplay = true
