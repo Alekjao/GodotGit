@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BigBlue.ogg-348e7598c2c407b498abc36619433518.oggstr"
+
+[deps]
+
+source_file="res://src/Audios/BigBlue.ogg"
+dest_files=[ "res://.import/BigBlue.ogg-348e7598c2c407b498abc36619433518.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -44,7 +44,6 @@ func set_direction_view() -> void:
 	and !Input.is_action_pressed("move_left")):
 		dir = Vector2(0, 0)
 	
-	
 	if Input.is_action_pressed("move_right") :
 		dir += Vector2(1 , 0)
 	
