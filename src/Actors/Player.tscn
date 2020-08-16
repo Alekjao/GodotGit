@@ -135,9 +135,8 @@ gravity = 3000.0
 [node name="Player" type="Sprite" parent="."]
 scale = Vector2( 2.6, 2.6 )
 texture = ExtResource( 2 )
-vframes = 2
-hframes = 6
-frame = 7
+vframes = 7
+hframes = 12
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 7.14762 )
@@ -175,9 +174,9 @@ position = Vector2( 0, -11.6673 )
 rotation = 1.57778
 script = ExtResource( 4 )
 
-[node name="Sprite" type="Sprite" parent="Position2D"]
-position = Vector2( 172.534, 0 )
-scale = Vector2( 5.28684, 0.226603 )
+[node name="Sprite" type="Sprite" parent="Mira"]
+position = Vector2( 25.5015, 0 )
+scale = Vector2( 1.08376, 0.226603 )
 texture = ExtResource( 3 )
 [connection signal="area_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_area_entered"]
 [connection signal="body_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_body_entered"]

@@ -157,3 +157,5 @@ position = Vector2( 1780.06, 800.406 )
 
 [node name="Aroldo" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1240.17, 771.743 )
+[node name="AudioStreamPlayer2D" parent="." instance=ExtResource( 5 )]
+pitch_scale = 1.05
